@@ -1,9 +1,9 @@
 /*apply class lesson here on root setting*/
 
 :root {
-    --first-color:black;
-    --secondary-color:teal;
-    --third-color:gray; 
+    --black-color:black;
+    --teal-color:teal;
+    --gray-color:gray; 
 }
 
 /*default settings*/
@@ -15,6 +15,7 @@
 }
 
 /*start css element styling */
+/*top header*/
 
 section{
     display: flex;
@@ -31,13 +32,13 @@ header {
     width: 100%;
     display: flex;
     justify-content:space-between ;
-    background-color: var(--first-color);
+    background-color: var(--black-color);
     align-items: center;
 }
 
 header h1 {
-    background-color: var(--secondary-color);
-    color:var(--first-color);
+    background-color: var(--teal-color);
+    color:var(--black-color);
     padding: 12px 12px 12px 35px;
     margin: 12px 12px 12px 0px;
     font-family:Arial, Helvetica, sans-serif
@@ -68,7 +69,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: var(--secondary-color);
+    color: var(--teal-color);
     text-decoration: underline;
 }
 
@@ -76,22 +77,29 @@ p {
     font-size: 16px;
 }
 
-.subtitle {
-    height: 21px;
+/*mid header*/
+.subtitle-section {
+    height: 150px;
+    margin: 0px;
+    padding: 9px 3px;
     display: flex;
-    margin-bottom: 25px;
-    background-image: url("#placeholder");
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-image: url("../assets/Milky-Way-Galaxy-1080x675.jpg");
     background-size: cover;
     background-position: center;
-    background-color: lightblue;
 }
 
-
-.content-article{
-    display: flex;
-    justify-content: center;
+.subtitle-section h2{
+    background-color: var(--teal-color);
+    margin: 0px 45px 12px;
     margin-bottom: 15px;
-    
+    padding: 7px;
+}
+
+.aboutme-article img{
+    width: 70%;
 }
 
 
