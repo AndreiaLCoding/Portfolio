@@ -1,0 +1,168 @@
+:root {
+    --first-color:black;
+    --secondary-color:teal;
+    --third-color:gray; 
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+}
+
+section div{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    background-color: var(--first-color);align-items: center;
+}
+
+header h1 {
+    background-color: var(--secondary-color);
+    color:var(--first-color);
+    padding: 12px 12px 12px 35px;
+    margin: 12px 12px 12px 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+nav {
+    margin: 0px 45px;
+}
+
+header nav ul{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 12px 6px;
+    padding: 0px 15px;
+    width: 100%;
+    display: flex ;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+.subtitle {
+    height: 21px;
+    display: flex;
+    margin-bottom: 25px;
+    background-image: url("#placeholder");
+    background-size: cover;
+    background-position: center;
+    background-color: lightblue;
+}
+
+
+.content-article{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+
+
+.left-column {
+    width: 20%;
+    /* padding-left: 120px; */
+    text-align: right;
+    border-right: 5px solid darkblue;
+    padding-right: 10px;
+
+}
+
+.right-column {
+    width: 50%;
+    padding: 15px;
+
+
+
+}
+
+
+.contact-info a {
+
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+.contact-info nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#work-content {
+    display: flex;
+    flex-direction:column;
+}
+
+.row {
+    width: 100%;
+    height: 200px;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.big-box {
+    position: relative;
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+}
+
+.medium-box {
+    position: relative;
+    border: 2px solid black;
+    width: 48%;
+    height: 200px;
+}
+
+.mini-box {
+    position: absolute;
+    top: 120px;
+}
+
+
+
+
+
+
+
+
