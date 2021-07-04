@@ -99,9 +99,76 @@ p {
 }
 
 .aboutme-article img{
-    width: 70%;
+    width: 50%;
 }
 
+.my-projects{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.project-section{
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 50%;
+    background-image: url("../assets/Milky-Way-Galaxy-1080x675.jpg");
+    border: 3px solid var(--teal-color);
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 150px;
+    background-size: cover;
+}
+
+.project{
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 50%;
+    background-image: url("../assets/Milky-Way-Galaxy-1080x675.jpg");
+    border: 3px solid var(--teal-color);
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 153px;
+    background-size: cover;
+}
+
+.project-outline{
+    background-color: var(--teal-color);
+    margin-top: auto;
+    margin-bottom: 12px;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-detail{
+    background-color: var(--teal-color);
+    margin-top: auto;
+    margin-bottom: 12px;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-highlight{
+    flex-basis: 100%;
+    height: 450px; 
+}
+
+.project-section:hover {
+    filter: brightness(200%);
+}
+
+.project:hover {
+    filter: brightness(200%);
+}
 
 .left-column {
     width: 20%;
@@ -109,7 +176,6 @@ p {
     text-align: right;
     border-right: 5px solid darkblue;
     padding-right: 10px;
-
 }
 
 .right-column {
